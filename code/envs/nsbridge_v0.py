@@ -36,6 +36,7 @@ def categorical_sample(prob_n, np_random):
     csprob_n = np.cumsum(prob_n)
     return (csprob_n > np_random.rand()).argmax()
 
+
 class NSBridgeV0(Env):
     """
     Non Stationary grid-world representing a bridge.
