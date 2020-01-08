@@ -47,15 +47,18 @@ script sequentially:
 	python nsbridge_experiment.py
 	python results_exploitation.py
 
-## Quote
+## Cite
 
-If you use this code in your work or build on the
-[paper](https://arxiv.org/abs/1904.10090), please cite the
-latter.
+If you use this code in your work or build on [the paper](https://papers.nips.cc/paper/8942-non-stationary-markov-decision-processes-a-worst-case-approach-using-model-based-reinforcement-learning), please cite the latter.
 Here is an example of bibtex entry:
-
+    
     @inproceedings{lecarpentier2019non,
         title={{Non-Stationary Markov Decision Processes a Worst-Case Approach using Model-Based Reinforcement Learning}},
-        author={Lecarpentier, Erwan and Rachelson, Emmanuel},
-        booktitle={Advances in Neural Information Processing Systems}
+        author = {Lecarpentier, Erwan and Rachelson, Emmanuel},
+        booktitle = {Advances in Neural Information Processing Systems 32},
+        editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+        pages = {7214--7223},
+        year = {2019},
+        publisher = {Curran Associates, Inc.}
     }
+
